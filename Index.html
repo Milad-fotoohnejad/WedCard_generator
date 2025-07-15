@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wedding Card Preview</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Parisienne&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="card">
+        <div class="card-content">
+            <div class="names">Karen &amp; Randy</div>
+            <div class="details">
+                Joyfully invite you to our wedding ceremony<br>
+                aboard the love boat in Spirit Cruises,<br>
+                <a href="https://www.google.com/maps?q=450+Denman+St,+Vancouver,+BC" target="_blank" class="map-link">
+                    <strong>450 Denman St, Vancouver, BC</strong>
+                </a>
+                <div class="parking-note">
+                <a href="https://maps.app.goo.gl/fDuqiJxmzSisEzZR9?g_st=i&utm_campaign=ac-im" target="_blank"
+                    class="map-link">
+                    Click for Nearby Parking Lot
+                </a>
+            </div>
+            </div>
+            <div class="event-info">
+                <div><strong>DATE:</strong> August 3, 2025</div>
+                <div><strong>TIME:</strong> 5:00 PM</div>
+            </div>
+            <div class="invite-note">
+                Please join us for an unforgettable evening<br>
+                filled with love and celebration.
+            </div>
+            <div class="traffic-note">
+                <strong>Please note:</strong> Due to the Pride Parade on the day of the ceremony,
+                downtown traffic may be impacted. We kindly recommend planning your trip ahead of time.
+            </div>
+        </div>
+    </div>
+    <!-- Add inside <body>, after .card-content -->
+    <!-- <button onclick="downloadCardAsPNG()" class="download-btn">Download PNG</button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script>
+        function downloadCardAsPNG() {
+            const card = document.querySelector('.card');
+            html2canvas(card, {
+                backgroundColor: null, // preserve transparent corners if needed
+                scale: 2 // better quality
+            }).then(canvas => {
+                const link = document.createElement('a');
+                link.download = 'wedding_card.png';
+                link.href = canvas.toDataURL();
+                link.click();
+            });
+        }
+    </script> -->
+</body>
+
+</html>

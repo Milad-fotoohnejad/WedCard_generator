@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #faf9f5;
+  font-family: 'Parisienne', cursive;
+  color: #21291E;
+}
+
+.card {
+  width: 800px;
+  height: 1200px;
+  background: url('BG.png') center/cover no-repeat;
+  margin: 40px auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  display: flex;
+  position: relative;
+  top: -40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-content {
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.names {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 60px;
+  color: #26451a;
+}
+
+.details {
+  font-family: 'Parisienne', serif;
+  font-size: 32px;
+  color: #26451a;
+  ;
+  line-height: 1.5;
+}
+
+.event-info {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 22px;
+  color: #26451a;
+  ;
+  line-height: 1.6;
+}
+
+.invite-note {
+  font-family: 'Parisienne', serif;
+  font-size: 32px;
+  color: #26451a;
+  ;
+  line-height: 1.4;
+}
+
+.traffic-note {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 14px;
+  margin-top: 100px;
+  color: #26451a;
+  line-height: 1.4;
+  text-align: center;
+  padding: 0 10px;
+}
+
+
+.download-btn {
+  position: relative;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 12px 24px;
+  font-size: 18px;
+  font-family: 'Cinzel Decorative', serif;
+  background-color: #D0AD6D;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.download-btn:hover {
+  background-color: #B08A5B;
+}
+
+
+.map-link {
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
+  color: #D0AD6D;
+  transition: color 0.3s ease;
+  text-decoration: underline;
+}
+
+.map-link:hover {
+  color: #b78e4a;
+}
+
+.parking-note {
+  font-size: 18px;
+  font-family: 'Cinzel Decorative', serif;
+  text-align: center;
+}
